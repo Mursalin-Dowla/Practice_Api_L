@@ -21,5 +21,5 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 Route::get('/viewapi',[ApiController::class,'viewAll']);
 Route::post('/getapi',[ApiController::class,'getAll']);
 Route::post('/deleteapi',[ApiController::class,'deleteProduct']);
-Route::post('/updateapi',[ApiController::class,'updateProduct']);
+Route::post('/updateapi',[ApiController::class,'updateProduct'])->name('editProduct');
 Route::post('/addapi',[ApiController::class,'addProduct'])->name('addProduct');

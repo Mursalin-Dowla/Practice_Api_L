@@ -22,3 +22,4 @@ Route::get('/', function () {
 
 Route::get('/products',[ProductController::class, 'index']);
 Route::get('/addproducts',[ApiBladeController::class, 'index'])->name('blade.addproduct');
+Route::get('/editproducts',[ApiBladeController::class, 'edit'])->name('blade.editproduct');

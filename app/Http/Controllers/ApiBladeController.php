@@ -9,4 +9,7 @@ class ApiBladeController extends Controller
     function index(){
         return view('addProductApi');
     }
+    function edit(){
+        return view('editProductApi');
+    }
 }

@@ -32,7 +32,7 @@
         </tbody>
     </table>
     <a href="{{route('blade.addproduct')}}" class="btn btn-success">Add Product</a>
-    <a href="{{route('blade.addproduct')}}" class="btn btn-success">Edit Product</a>
+    <a href="{{route('blade.editproduct')}}" class="btn btn-success">Edit Product</a>
     <a href="{{route('blade.addproduct')}}" class="btn btn-success">Delete Product</a>
     <a href="{{route('blade.addproduct')}}" class="btn btn-success">View Product</a>
 
