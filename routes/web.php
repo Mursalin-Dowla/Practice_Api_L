@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\ApiBladeController;
+use App\Http\Controllers\ApiController;
 use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
 
@@ -19,3 +21,4 @@ Route::get('/', function () {
 });
 
 Route::get('/products',[ProductController::class, 'index']);
+Route::get('/addproducts',[ApiBladeController::class, 'index'])->name('blade.addproduct');

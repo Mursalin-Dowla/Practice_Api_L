@@ -35,6 +35,12 @@ class ApiController extends Controller
         }
         
     }
+    function viewAll(Request $request){                        
+                $products = Products::all();
+                return response()->json([                    
+                    'products' => $products,                   
+                ]);                    
+    }
     function deleteProduct(Request $request){
         $user = User::where('email',$request->email)->get();
         if(count($user) > 0){
