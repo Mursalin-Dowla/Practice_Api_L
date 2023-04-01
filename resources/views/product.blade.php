@@ -10,7 +10,7 @@
 </head>
 <body class="p-5">
     <h6 class="text-center">Product Api Access For Practice: <span class="text-primary">https://jim.ovshopbd.com/api/viewapi</span></h6>
-    <a href="https://github.com/Mursalin-Dowla/Practice_Api_L/blob/main/practiceapi_documentation%20by%20Jim.docx" target="_blank" class="btn btn-info">Documentation</a>
+    <a href="https://docs.google.com/document/d/1kEzWTN6Qa_87dHrzS8yG7mwlzBMyXbVq4DC1ZWV8JVE/edit?usp=sharing" target="_blank" class="btn btn-info">Documentation</a>
     <h1>Products</h1>
    
     <table class="table" style="border:1px solid black;">
