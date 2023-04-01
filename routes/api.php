@@ -18,8 +18,8 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
-Route::get('/viewapi',[ApiController::class,'viewAll']);
+Route::get('/viewapi',[ApiController::class,'viewAll'])->name('viewProduct');
 Route::post('/getapi',[ApiController::class,'getAll']);
-Route::post('/deleteapi',[ApiController::class,'deleteProduct']);
+Route::post('/deleteapi',[ApiController::class,'deleteProduct'])->name('deleteProduct');
 Route::post('/updateapi',[ApiController::class,'updateProduct'])->name('editProduct');
 Route::post('/addapi',[ApiController::class,'addProduct'])->name('addProduct');

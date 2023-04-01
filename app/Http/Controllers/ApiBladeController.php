@@ -12,4 +12,7 @@ class ApiBladeController extends Controller
     function edit(){
         return view('editProductApi');
     }
+    function deleteprod(){
+        return view('deleteProductApi');
+    }
 }
